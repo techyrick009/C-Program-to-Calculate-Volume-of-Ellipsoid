@@ -1,0 +1,43 @@
+/*
+ * 1000+ C programs + tutorials
+ *
+ *
+ * 15_calculate_volume_of_ellipsoid.c
+ *
+ *
+ *  Author: techyrick.com
+ */
+
+#include <stdio.h>
+//#include <conio.h>
+
+void main() {
+
+    int r1,r2,r3;
+    float volume_of_ellipsoid;
+    float PI = 3.142;
+
+//	clrscr();
+
+	printf(" Program to calculate Volume of a Ellipsoid :  ");
+
+	printf("\n\n Enter the Radius 1 of Ellipsoid : ");
+	scanf("%d", &r1);
+    
+    printf("\n\n Enter the Radius 2 of Ellipsoid : ");
+	scanf("%d", &r2);
+    
+    printf("\n\n Enter the Radius 3 of Ellipsoid : ");
+	scanf("%d", &r3);
+    
+    
+    
+    volume_of_ellipsoid = (4/3)*(PI*r1*r2*r3);
+
+
+	printf("\n\n Volume of Ellipsoid with (r1,r2,r3) as (%d,%d,%d) = %f",r1,r2,r3,volume_of_ellipsoid);
+
+//	getch();
+
+
+}
